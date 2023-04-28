@@ -1,0 +1,277 @@
+/* Set a default font family and font size for the page */
+ body {
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+}
+ body {
+     margin: 0;
+     padding: 0;
+}
+ header {
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px;
+     padding-bottom: 0px;
+     background-color: #E2E2E2;
+}
+ header img {
+     width: 150px;
+}
+ nav {
+     text-align: right;
+     margin-top: 10px;
+     margin-right: 20px;
+}
+ nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+ nav ul li {
+     display: inline-block;
+     width: 120px;
+     margin-left: 20px;
+     border: 2px solid #333;
+     text-align: center;
+     padding: 10px;
+     background-color: #B7B5B5;
+}
+ nav ul li a {
+     text-decoration: none;
+     color: #333;
+     font-weight: bold;
+     font-size: 18px;
+}
+ h1 {
+     font-size: 36px;
+     text-align: left;
+     margin-top: 0px;
+}
+ .header-section {
+     padding: 50px;
+     padding-top: 10px;
+     margin-top: 0px;
+     background-color: #E2E2E2;
+}
+/* Style the destination section */
+ #destination-section {
+     padding: 50px;
+     background-color: #FBFBFB;
+}
+ .destination-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .destination-text {
+     flex-basis: 33%;
+     margin-right: 10px;
+     align-self: flex-start;
+}
+ .destination-images {
+     flex-basis: 65%;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .destination-images img {
+     flex-basis: 43%;
+     margin-bottom: 10px;
+     width: 50%;
+}
+ #lastImg {
+     width: 100%;
+}
+/* Style the plan section */
+ #plan-section {
+     padding: 50px;
+     padding-top: 10px;
+     background-color: #E2E2E2;
+}
+ .plan-container {
+     text-align: center;
+}
+ .plan-images {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+}
+ .plan-image {
+     flex-basis: 22%;
+}
+ .plan-image h3 {
+     font-size: 18px;
+     margin-top: 0;
+}
+ .plan-image img {
+     width: 100%;
+     border-radius: 10px;
+}
+/* Style the testimonial section */
+ #testimonial-section {
+     padding: 50px;
+     padding-top: 10px;
+     background-color: #f8f8f8;
+}
+ .testimonials-container {
+     display: flex;
+     justify-content: space-between;
+}
+ .testimonial {
+     flex-basis: 23%;
+     text-align: center;
+}
+ .testimonial img {
+     width: 80%;
+     border-radius: 50%;
+}
+ .testimonial p {
+     margin-top: 10px;
+     font-style: italic;
+}
+/* Style the about section */
+ #about-section {
+     padding: 50px;
+     padding-top: 10px;
+     background-color: #E2E2E2;
+}
+ .destination-info-item {
+     display: inline-block;
+     vertical-align: top;
+     text-align: center;
+     margin: 0 20px;
+     width: 200px;
+}
+ .destination-info-item h3 {
+     margin-top: 20px;
+     font-size: 24px;
+}
+ .destination-info-item svg {
+     width: 100px;
+     height: 100px;
+     margin-bottom: 20px;
+}
+ .destination-info-item p {
+     margin-top: 20px;
+     font-size: 18px;
+     font-weight: bold;
+}
+/* Style the contact section */
+ #about-section {
+     padding: 50px;
+     padding-top: 10px;
+     background-color: #E2E2E2;
+}
+ .destination-info-item {
+     display: inline-block;
+     vertical-align: top;
+     text-align: center;
+     margin: 0 20px;
+     width: 200px;
+}
+ .destination-info-item h3 {
+     margin-top: 20px;
+     font-size: 24px;
+}
+ .destination-info-item svg {
+     width: 100px;
+     height: 100px;
+     margin-bottom: 20px;
+}
+ .destination-info-item p {
+     margin-top: 20px;
+     font-size: 18px;
+     font-weight: bold;
+}
+ #contact-section {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: left;
+     padding: 50px;
+     padding-top: 10px;
+     background-color: #f8f8f8;
+}
+ #contact-section h2 {
+     width: 100%;
+     text-align: left;
+     margin-bottom: 30px;
+}
+ #contact-form {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     max-width: 800px;
+}
+ #contact-form label {
+     display: block;
+     margin-bottom: 10px;
+}
+ #contact-form input, #contact-form select {
+     width: calc((100% - 20px) / 2);
+     margin-bottom: 20px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid black;
+     background-color: white;
+     font-size: 16px;
+}
+ #contact-form select {
+     width: 100%;
+}
+ #contact-form button {
+     margin-top: 20px;
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: none;
+     background-color: #a905b6;
+     color: #fff;
+     font-size: 16px;
+     cursor: pointer;
+}
+ #contact-form button:hover {
+     background-color: #8b049e;
+}
+ #contact-form input[type="radio"] {
+     display: inline-block;
+     margin-right: 10px;
+}
+ #contact-form label[for="contact-method"], #contact-form input[type="radio"] {
+     display: inline-flex;
+     align-items: center;
+}
+ .radio-group {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-bottom: 20px;
+}
+ .radio-item {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-right: 20px;
+}
+ .radio-item label {
+     margin-left: 10px;
+}
+ footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     background-color: #E2E2E2;
+     font-size: 14px;
+     color: #666666;
+}
+ .left {
+     flex-grow: 1;
+}
+ .right {
+     display: flex;
+}
+ .right a {
+     margin-left: 20px;
+}
