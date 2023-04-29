@@ -574,6 +574,20 @@ body {
     margin-left: 13px;
   }
 
+  #contact input:first-of-type{
+    width: 130%;
+  }
+  #contact input:nth-of-type(2){
+    width: 130%;
+  }
+
+  #nums input:first-of-type{
+    width: 96%;
+  }
+
+  #nums input:nth-of-type(2){
+    width: 96%;
+  }
 
   header {
     display: inline-block; /* Use flexbox layout */
