@@ -575,10 +575,10 @@ body {
   }
 
   #contact input:first-of-type{
-    width: 130%;
+    width: 100%;
   }
   #contact input:nth-of-type(2){
-    width: 130%;
+    width: 100%;
   }
 
   #nums input:first-of-type{
@@ -641,7 +641,7 @@ body {
 
   h2{
     position: absolute;
-    margin-top: -150px;
+    margin-top: -18%;
   }
 
   #main-content{
@@ -948,6 +948,11 @@ body {
 }
 
 @media screen and (min-width: 1250px) {
+  body{
+    width: 100%;
+  }
+
+
   h3 {
     grid-column: 1;
     text-align: left;
