@@ -949,6 +949,37 @@ body {
 
 @media screen and (min-width: 1250px) {
 
+
+
+#contact input {
+  width: 80%;
+}
+
+
+  #about div {
+    padding-left: 20%;
+}
+
+  #testimonials h3 {
+    padding-left: 5%;
+}
+
+  #testimonials {
+    padding-bottom: 10%;
+}
+
+  #plan {
+    padding-left: 0%;
+    width: 110%;
+    padding-bottom: 0;
+    justify-items: left;
+}
+
+  #plan div {
+    width: 90%;
+    margin-left: 0;
+}
+
   html{
     max-width: 100%;
   }
@@ -976,12 +1007,12 @@ body {
   nav ul li {
     width: 150px;
     max-width: 150px;
-    margin-right: 2%;
+    margin-right: 110%;
   }
   nav ul {
     position: absolute;
     top: 0;
-    right: -238%;
+    right: 100px;
   }
   nav {
     position: absolute;
@@ -1033,11 +1064,11 @@ body {
     align-items: center;
     justify-items: center;
     margin-top: 2rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 0;
-    margin-left: 15%;
-  }
+    margin-left: 5%;
+}
 
   #img-grid img {
     width: 100%;
