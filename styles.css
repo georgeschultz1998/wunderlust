@@ -575,10 +575,10 @@ body {
   }
 
   #contact input:first-of-type{
-    width: 100%;
+    width: 96%;
   }
   #contact input:nth-of-type(2){
-    width: 100%;
+    width: 96%;
   }
 
   #nums input:first-of-type{
