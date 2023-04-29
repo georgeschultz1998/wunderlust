@@ -1191,4 +1191,8 @@ body {
     width: 250px;
     margin-left: 94px;
   }
+  #plan{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
