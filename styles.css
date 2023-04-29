@@ -948,6 +948,13 @@ body {
 
 @media screen and (min-width: 1250px) {
 
+  #plan section {
+    width: 250px;
+    margin-left: 94px;
+    height: 200px;
+    padding-bottom: 20%;
+}
+
   header p {
     right: 200px;
 }
@@ -1181,7 +1188,7 @@ body {
     padding: 2rem;
   }
   #plan section {
-    width: 200px;
+    width: 250px;
     margin-left: 94px;
   }
 }
