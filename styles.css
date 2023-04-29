@@ -947,6 +947,30 @@ body {
 }
 
 @media screen and (min-width: 1250px) {
+  #about h3 {
+    padding-left: 5%;
+}
+
+#contact h3 {
+  padding-top: 5%;
+  padding-right: 50%;
+}
+
+#contact {
+  padding-top: 10%;
+  padding-left: 0;
+}
+
+  header p{
+    padding-right: 0px;
+    padding-bottom: 0;
+    line-height: 2;
+    font-size: 1.3em;
+    width: 50% !important;
+    margin-top: 13%;
+    right: 15px;
+    position: absolute;
+  }
 
   #plan section {
     width: 250px;
@@ -1194,5 +1218,6 @@ body {
   #plan{
     padding-top: 100px;
     padding-bottom: 100px;
+    align-items: center;
   }
 }
