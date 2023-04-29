@@ -768,6 +768,15 @@ body {
   #about img {
     width: 160%;
   }
+
+  #about {
+    justify-content: left;
+  }
+
+  #about section{
+    justify-content: left;
+  }
+
   #about section h4 {
     font-size: 2em;
     padding-left: 35%;
@@ -794,7 +803,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.5rem;
-    justify-items: center;
+    justify-items: left;
     text-align: center;
     padding-bottom: 10%;
   }
