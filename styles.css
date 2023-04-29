@@ -624,18 +624,17 @@ body {
     width: auto;
     height: 20px;
     white-space: nowrap; /* Prevent menu items from wrapping */
-    border: 1px solid black;
+    border: 0px solid black;
 
   }
 
-  ul li.selected {
-    background-color: yellow; /* Set the background color to yellow */
-    color: black; /* Set the text color to black */
+  nav ul li:hover{
+    background-color: #f6d64a;
+    color: white;
   }
-
 
   ul li:last-child{
-    border: 1px solid black;
+    border: 0px solid black;
 
   }
 
