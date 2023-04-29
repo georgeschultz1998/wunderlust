@@ -95,7 +95,6 @@ body {
   --white: #ffffff;
   --black: #000000;
 }
-@media screen and (max-width: 767px) {
   #menu-toggle {
     display: block;
     position: absolute;
@@ -179,7 +178,7 @@ body {
     padding-left: 25%;
     list-style-type: none;
   }
-}
+
 
 .sr-only {
   width: 1px;
@@ -485,6 +484,8 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+
+
   ul li {
     background: #55bcd5;
     font-size: 22px;
@@ -553,6 +554,80 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  h1{
+    font-size: 5em;
+  }
+  h2, h3{
+    font-size: 4em;
+  }
+
+  #intro h2{
+    font-size: 4em;
+  }
+  header {
+    background-image: linear-gradient(#55bcd5, #fff);
+    margin-right: -13%;
+  }
+
+
+  header {
+    display: inline-block; /* Use flexbox layout */
+    align-items: center; /* Align items vertically centered */
+    margin-bottom: 140px;
+
+  }
+  
+  header h1, header p {
+    margin-left: 10px; /* Add some spacing between the image and the text */
+  }
+  
+  #menu-toggle {
+    /* Remove absolute positioning */
+    position: static;
+    text-align: center;
+  }
+  #menu-toggle label {
+    /* Hide the menu label on larger screens */
+    display: none;
+  }
+  ul {
+    /* Display the menu as a flex container */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    margin-left: 20px;
+  }
+  ul li {
+    /* Set the width to auto so that list items fit their content */
+    width: auto;
+    height: 20px;
+    white-space: nowrap; /* Prevent menu items from wrapping */
+    border: 1px solid black;
+
+  }
+
+  ul li.selected {
+    background-color: yellow; /* Set the background color to yellow */
+    color: black; /* Set the text color to black */
+  }
+
+
+  ul li:last-child{
+    border: 1px solid black;
+
+  }
+
+  h2{
+    position: absolute;
+    margin-top: -150px;
+  }
+
+  #main-content{
+    margin-top: 60px;
+  }
+
   body {
     width: 100%;
     display: grid;
@@ -569,34 +644,39 @@ body {
     white-space: nowrap;
     margin-right: 2%;
   }
-  footer p {
-    flex: 1;
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 0;
-    white-space: nowrap;
-    font-size: 1em;
-    margin-right: 2%;
-  }
-  footer {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 10%;
-    background-color: #eaeaea;
-    font-size: 1.2em;
-    width: 90%;
-    font-family: Montserrat, sans-serif;
-  }
   header h1 {
     margin-left: 215px;
     margin-top: -50px;
     margin-bottom: 25px;
   }
+  header a img{
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+  
+  }
+
+  header a h1{
+    margin-left:  300px;
+  }
   header h1,
   header p {
-    width: 40%;
+    width: 20%;
     display: inline-block;
     vertical-align: middle;
+    margin: 0;
+    padding: 0;
+  }
+
+  header p{
+    padding-right: 0px;
+    padding-bottom: 0;
+    line-height: 2;
+    font-size: 1.3em;
+    width: 50% !important;
+    margin-top: 130px;
+    right: 15px;
+    position: absolute;
   }
   header img {
     width: 50%;
@@ -621,7 +701,7 @@ body {
   }
   nav ul li {
     margin-right: 10%;
-    background-color: #f6d64a;
+    background-color: white;
     padding: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -641,12 +721,34 @@ body {
     padding: 0;
     list-style: none;
   }
+
   picture {
     grid-column: 1/-1;
   }
+
+  footer p {
+    flex: 1;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 0;
+    white-space: nowrap;
+    font-size: 1em;
+    margin-right: 2%;
+  }
+  footer {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10%;
+    background-color: #eaeaea;
+    font-size: 1.2em;
+    width: 90%;
+    font-family: Montserrat, sans-serif;
+  }
+
   .first {
     grid-column: 1/2;
   }
+
   .radio-label {
     font-family: Montserrat, sans-serif;
     font-size: 1.3em;
