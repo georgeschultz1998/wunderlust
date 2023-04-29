@@ -569,6 +569,11 @@ body {
     margin-right: -13%;
   }
 
+  #menu-toggle ul{
+    margin-top: 30px;
+    margin-left: 13px;
+  }
+
 
   header {
     display: inline-block; /* Use flexbox layout */
@@ -598,6 +603,7 @@ body {
     align-items: center;
     width: 110%;
     margin-left: 20px;
+    margin-top: 40px;
   }
   ul li {
     /* Set the width to auto so that list items fit their content */
